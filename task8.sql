@@ -6,7 +6,7 @@ drop table if exists student;
 create table student(
 	id int auto_increment primary key,
     name varchar(50),
-    class enum("Four","Three","Fifth","Five","Six")doctor,
+    class enum("Four","Three","Fifth","Five","Six"),
     mark int,
     sex enum("Male","Female")
 );
